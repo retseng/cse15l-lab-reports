@@ -1,4 +1,4 @@
-![Image](http://profile.png)
+profile.png
 ---
 - 👋 Bonjour, I’m @retseng
 - 👀 I’m currently studying bioinformatics at UCSD!

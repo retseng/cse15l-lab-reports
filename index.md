@@ -4,4 +4,4 @@
 - 🖥️ I work as an undergraduate researcher at the Gaulton Lab
 - 📄 [Resume](https://docs.google.com/document/d/1V0PAKaVaRMP4gQMHZ_BABEwv_trCW4lqmNnH7qtwIFE/edit?usp=sharing)
 - 📫 How to reach me: retseng@ucsd.edu
-- ⚡ Fun fact: I have absolute pitch :)
+- ⚡ Fun fact: I am a [classically trained pianist](https://www.youtube.com/watch?v=JFrJAjz57l8&list=PLQiV0dKfYhz8Xv3nAGd2K3eEpDjA7MBmO) and have absolute pitch :)

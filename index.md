@@ -1,7 +1,7 @@
 
 ![Image](profile.png)	
 ---
-#About Me
+# About Me
 - 👋 Bonjour, I’m @retseng
 - 👀 I’m currently studying **bioinformatics** at UCSD!
 - 🌱 My SP24 courseload: discrete math (CSE 20), data structures (CSE 12), linear algebra (MATH 18), and software tools/techniques (CSE 15L)

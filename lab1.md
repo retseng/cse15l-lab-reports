@@ -2,7 +2,7 @@
 ---
 #### **Share an example of using the command with no arguments.**
 ![Image](cd_empty.png)	\
-Absolute path: ```/c/Users/rebec```\
+Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data/Downloads/CSE_15L```\
 Nothing is printed and there is no change in the directory as there is no argument set.\
 *No error* 
 #### **Share an example of using the command with a path to a directory as an argument.**
@@ -43,8 +43,8 @@ The text file name is repeated. \
 ---
 #### **Share an example of using the command with no arguments.**
 ![Image](cat_empty.png)	\
-Absolute path: ```/c/Users/rebec```\
-Nothing is printed, but upon user input, the text is repeated.\
+Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data/Downloads/CSE_15L/lecture1```\
+Nothing is printed, and it's expecting user input. Upon user input, the same text becomes the output.\
 **_Error:_** While there is no explicit error printed, the output can be interpreted as an *infinite loop*, as there is no way for the code to stop itself.
 
 #### **Share an example of using the command with a path to a directory as an argument.**

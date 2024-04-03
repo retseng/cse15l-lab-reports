@@ -1,3 +1,4 @@
+# Lab Report 1 - 04/02/24
 ```cd``` : *change directory*
 ---
 #### **Share an example of using the command with no arguments.**

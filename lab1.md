@@ -13,7 +13,7 @@ Nothing is printed and the directory is changed to the folder, CSE_15L as the ar
 #### **Share an example of using the command with a path to a file as an argument.**
 ![Image](cd_file.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data/Downloads/CSE_15L/lecture1/messages```\
-An error was printed, and the directory was *not* changed.
+An error was printed, and the directory was *not* changed. \
 **_Error:_**```Not a directory``` The argument in ```cd``` should be a file path, not a file. 
 
 
@@ -29,12 +29,12 @@ The contents of the Data folder (which is the current directory in the absolute 
 #### **Share an example of using the command with a path to a directory as an argument.**
 ![Image](ls_path.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data```\
-The contents of the CSE_15L folder are printed.
+The contents of the CSE_15L folder are printed. \
 *No error*
 #### **Share an example of using the command with a path to a file as an argument.**
 ![Image](ls_file.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data/Downloads/CSE_15L/lecture1/messages```\
-The text file name is repeated.
+The text file name is repeated. \
 *No error*
 
 
@@ -50,7 +50,7 @@ Nothing is printed, but upon user input, the text is repeated.\
 #### **Share an example of using the command with a path to a directory as an argument.**
 ![Image](cat_path.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data/Downloads/CSE_15L/lecture1```\
-This states that the given argument is a directory.\
+This states that the given argument is a directory. \
 *No error*
 
 

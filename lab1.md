@@ -20,7 +20,7 @@ An error was printed, and the directory was *not* changed. \
 
 
 ## ```ls``` : *list*
-#### **Share an example of using the command with no arguments.**\
+#### **Share an example of using the command with no arguments.**
 ![Image](ls_empty.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data```\
 The list of contents of  ```Data``` (which is the current directory in the absolute path) are printed.\

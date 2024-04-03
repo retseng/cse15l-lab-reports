@@ -9,7 +9,7 @@ Nothing is printed and there is no change in the directory as there is no argume
 #### **Share an example of using the command with a path to a directory as an argument.**
 ![Image](cd_path.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data``` \
-Nothing is printed and the directory is changed to the folder, CSE_15L, as the argument stated.\
+Nothing is printed and the directory is changed to the folder ```CSE_15L``` as the argument stated.\
 *No error*
 #### **Share an example of using the command with a path to a file as an argument.**
 ![Image](cd_file.png)	\
@@ -24,13 +24,13 @@ An error was printed, and the directory was *not* changed. \
 #### **Share an example of using the command with no arguments.**\
 ![Image](ls_empty.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data```\
-The list of contents of the Data folder (which is the current directory in the absolute path) are printed.\
+The list of contents of  ```Data``` (which is the current directory in the absolute path) are printed.\
 *No error*
 
 #### **Share an example of using the command with a path to a directory as an argument.**
 ![Image](ls_path.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data```\
-The list of contents in the CSE_15L folder are printed. \
+The list of contents in  ```CSE_15L``` are printed. \
 *No error*
 #### **Share an example of using the command with a path to a file as an argument.**
 ![Image](ls_file.png)	\

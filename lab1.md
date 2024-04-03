@@ -1,7 +1,6 @@
 # Lab Report 1 - 04/02/24
 
 ## ```cd``` : *change directory*
----
 #### **Share an example of using the command with no arguments.**
 ![Image](cd_empty.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data/Downloads/CSE_15L```\
@@ -21,7 +20,6 @@ An error was printed, and the directory was *not* changed. \
 
 
 ## ```ls``` : *list*
----
 #### **Share an example of using the command with no arguments.**\
 ![Image](ls_empty.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data```\
@@ -42,7 +40,6 @@ The text file name is listed. \
 
 
 ## ```cat``` : *concatenate*
----
 #### **Share an example of using the command with no arguments.**
 ![Image](cat_empty.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data/Downloads/CSE_15L/lecture1```\

@@ -1,6 +1,6 @@
 # Lab Report 1 - 04/02/24
----
-```cd``` : *change directory*
+
+##```cd``` : *change directory*
 ---
 #### **Share an example of using the command with no arguments.**
 ![Image](cd_empty.png)	\
@@ -20,7 +20,7 @@ An error was printed, and the directory was *not* changed. \
 
 
 
-```ls``` : *list*
+##```ls``` : *list*
 ---
 #### **Share an example of using the command with no arguments.**\
 ![Image](ls_empty.png)	\
@@ -41,7 +41,7 @@ The text file name is listed. \
 
 
 
-```cat``` : *concatenate*
+##```cat``` : *concatenate*
 ---
 #### **Share an example of using the command with no arguments.**
 ![Image](cat_empty.png)	\

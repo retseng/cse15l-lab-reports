@@ -19,8 +19,8 @@ class Handler implements URLHandler {
             return "404 Not Found!";
          }
     }
-}'''
-
+}
+'''
 '''class ChatServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
@@ -32,4 +32,5 @@ class Handler implements URLHandler {
 
         Server.start(port, new Handler());
     }
-}'''
+}
+'''

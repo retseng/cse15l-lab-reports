@@ -44,7 +44,7 @@ class ChatServer {
     }
 }
 ```
-# Example Output
+### Example Output
 ![Image](lab2_1.png)
 The main method and handleRequest methods are called. The argument for main is the input in the command line, while the argument for handleRequest is the url. The main method ensures that there is a port that can be tunneled to. The handleRequest method first splits up the input by the delimiter "=". It then takes the query and concatenates the user with the message. The string formed is put into an ArrayList and then a larger String is created and printed for iteration, which is what is returned.
 ![Image](lab2_2.png)

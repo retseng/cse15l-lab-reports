@@ -1,7 +1,7 @@
 # Lab Report 2 - 04/16/24
 ## Part 1
 ### Code
-'''import java.io.IOException;
+```import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
@@ -36,7 +36,7 @@ class ChatServer {
     }
 }
 }
-'''
+```
 ## Example Output
 ![Image](lab2_1.png)
 ![Image](lab2_2.png)

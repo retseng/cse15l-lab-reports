@@ -3,11 +3,13 @@
 ### Code
 ```import java.io.IOException;
 import java.net.URI;
+import java.util.*;
 
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
     int num = 0;
+    ArrayList<String> array = new ArrayList<String>();
 
     public String handleRequest(URI url) {
         String[] parameters = url.getQuery().split("=");
@@ -15,9 +17,15 @@ class Handler implements URLHandler {
             String str = parameters[1];
             int end = str.indexOf("&");
             String message = str.substring(0, end);
-            return String.format("%s:%s", parameters[2], message);
-         }
-         else{
+            String text = parameters[2] + ":" + message;
+            array.add(text);
+            String fullText = "";
+            for(int i = 0; i<array.size(); i++){
+                fullText += array.get(i);
+                fullText += "\n";
+            }
+            return fullText;
+         } else{
             return "404 Not Found!";
          }
     }
@@ -34,7 +42,6 @@ class ChatServer {
 
         Server.start(port, new Handler());
     }
-}
 }
 ```
 ## Example Output

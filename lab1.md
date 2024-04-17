@@ -5,7 +5,7 @@
 ![Image](cd_empty.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data/Downloads/CSE_15L```\
 Nothing is printed and there is no change in the directory as there is no argument set.\
-*No error* 
+*Error*  Change directory in fact does not change the directory, since there is no argument making it an error.
 #### **Share an example of using the command with a path to a directory as an argument.**
 ![Image](cd_path.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data``` \
@@ -15,7 +15,7 @@ Nothing is printed and the directory is changed to the folder ```CSE_15L``` as t
 ![Image](cd_file.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data/Downloads/CSE_15L/lecture1/messages```\
 An error was printed, and the directory was *not* changed. \
-**_Error:_**```Not a directory``` The argument in ```cd``` should be a file path, not a file. 
+**_Error:_**```Not a directory``` The argument in ```cd``` should be a directory path, not a file. 
 
 
 
@@ -44,13 +44,13 @@ The text file name is listed. \
 ![Image](cat_empty.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data/Downloads/CSE_15L/lecture1```\
 Nothing is printed ```cat``` is expecting user input. Upon user input, the same text becomes the output.\
-**_Error:_** While there is no explicit error printed, the output can be interpreted as an *infinite loop*, as there is no way for the code to stop itself.
+**_No Error:_** While there is no explicit error printed, the output can be interpreted as an *infinite loop*, as there is no way for the code to stop itself, unless one uses ```control-C``` to stop it from running.
 
 #### **Share an example of using the command with a path to a directory as an argument.**
 ![Image](cat_path.png)	\
 Absolute path: ```/c/Users/rebec/Dropbox/Becky/Data/Downloads/CSE_15L/lecture1```\
 The function checks if the given argument is a directory, and prints the output as follows. \
-*No error*
+**_No Error:_**: Cat is expecting a file, not a directory, and the explicit messages tells the user to use a directory instead.
 
 
 #### **Share an example of using the command with a path to a file as an argument.**

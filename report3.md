@@ -99,4 +99,4 @@ OpenAI. "ChatGPT - OpenAI's Language Model." ChatGPT, Version 2, OpenAI, 2024 ht
 Prompt: What are some flag usages with the command less? \
 Output: \
 ![Image](CHAT.png) \
-Modification: I took the examples mentioned (-M, -F), and created examples of my own with the files in ```docsearch```
+Modification: I took the examples mentioned (```-M, -F```), and created examples of my own with the files in ```docsearch```

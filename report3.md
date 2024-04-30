@@ -65,7 +65,7 @@ This fix helps address the problem by first creatng a temporary array, and then 
 ![Image](lab3_TWO.png)
 Prints all ```.txt``` files and then prints less of the list, with numbered lines. \
 ```$ less -N */bcr***.txt```
-![Image](lab3_THREE.png)
+![Image](lab3_THREE.png) \
 Finds ```.txt``` file that starts with bcr and then prints less of it, with numbered lines.
 
 ### -X
@@ -73,20 +73,20 @@ Finds ```.txt``` file that starts with bcr and then prints less of it, with numb
 ![Image](new1.png)
 Finds files containing ```gb``` and prints a reduced version of the contents, and then leaves it on the screen once exiting. \
 ```$ less -X */*research*.txt```
-![Image](new2.png)
+![Image](new2.png) \
 Finds files containing ```gb``` and prints a reduced version of the contents, and then leaves it on the screen once exiting.
 
 ### -F :metal:
-```$ less -X */hello.txt```
-![Image](SIX.png)
-Finds file with the name ```bcr583.txt``` and then prints the entire file. Since the entire file can be displayed on one screen, it exits. \
-```$ less -X */*bcr583.txt```
-![Image](lab3_SEVEN.png)
+```$ less -F */hello.txt``` \
+![Image](SIX.png) \
+Finds file with the name ```hello.txt``` and then prints the entire file. Since the entire file can be displayed on one screen, it exits. \
+```$ less -F */*bcr583.txt```
+![Image](lab3_SEVEN.png) \
 Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. Since the entire file CANNOT be displayed on one screen, it does not exit.
 
 ### -M :muscle:
 ```$ less -M */*bcr583.txt```
-![Image](lab3_EIGHT.png)
+![Image](lab3_EIGHT.png) \
 Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. The highlighted part is changed, and now shows the percentage of the file displayed on the screen, along with the file line numbers of the text shown. \
 ```$ less -X */*bcr**.txt```
 ![Image](lab3_NINE.png) \

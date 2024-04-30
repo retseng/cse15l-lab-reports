@@ -92,7 +92,7 @@ Finds file with the name ```bcr583.txt``` and then prints the beginning of the f
 ![Image](lab3_NINE.png) \
 Finds the ```.txt``` files containing ```bcr``` and then prints the beginning of one file. It shows the percentage of the file shown on the screen and the file line numbers of the text shown.
 
-### Attribution :clap:
+## Attribution :clap:
 Less Command in Linux https://linuxize.com/post/less-command-in-linux/ \
 
 OpenAI. "ChatGPT - OpenAI's Language Model." ChatGPT, Version 2, OpenAI, 2024 https://openai.com/chatgpt \

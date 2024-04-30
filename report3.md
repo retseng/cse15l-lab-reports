@@ -85,7 +85,7 @@ Finds file with the name ```hello.txt``` and then prints the entire file. Since 
 Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. Since the entire file CANNOT be displayed on one screen, it does not exit.
 
 ### -M :muscle:
-```$ less -M */*bcr583.txt```
+```$ less -M */*bcr583.txt``` \
 ![Image](lab3_EIGHT.png) \
 Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. The highlighted part is changed, and now shows the percentage of the file displayed on the screen, along with the file line numbers of the text shown. \
 ```$ less -X */*bcr**.txt```

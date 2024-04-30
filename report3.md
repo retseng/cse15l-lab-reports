@@ -60,7 +60,7 @@ static void reverseInPlace(int[] arr) {
 This fix helps address the problem by first creatng a temporary array, and then copying the elements in reverse-order. The original code is not sufficient and produces symptoms because the elements keep getting changed. For example, the first element is assigned to the last element, but then the order is not actually reversed as the elements switch places back again. 
 
 ## Part 2: ```Less``` :punch:
-### -N :point_up_2:
+### -N 
 ```$ less -N */*.txt```
 ![Image](lab3_TWO.png)
 Prints all ```.txt``` files and then prints less of the list, with numbered lines. \
@@ -76,7 +76,7 @@ Finds files containing ```gb``` and prints a reduced version of the contents, an
 ![Image](new2.png) \
 Finds files containing ```gb``` and prints a reduced version of the contents, and then leaves it on the screen once exiting.
 
-### -F :metal:
+### -F
 ```$ less -F */hello.txt``` \
 ![Image](SIX.png) \
 Finds file with the name ```hello.txt``` and then prints the entire file. Since the entire file can be displayed on one screen, it exits. \
@@ -84,7 +84,7 @@ Finds file with the name ```hello.txt``` and then prints the entire file. Since 
 ![Image](lab3_SEVEN.png) \
 Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. Since the entire file CANNOT be displayed on one screen, it does not exit.
 
-### -M :muscle:
+### -M 
 ```$ less -M */*bcr583.txt``` \
 ![Image](lab3_EIGHT.png) \
 Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. The highlighted part is changed, and now shows the percentage of the file displayed on the screen, along with the file line numbers of the text shown. \

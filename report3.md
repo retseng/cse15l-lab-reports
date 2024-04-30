@@ -12,29 +12,29 @@
 ```
 JUnit test fails:  :x:
 ```
-	@Test 
-	public void testReverseInPlace() {
+@Test 
+public void testReverseInPlace() {
     int[] input1 = { 3, 4, 5 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 5, 4, 3 }, input1);
-	}
+}
 ```
 ### ii.
 JUnit test passes: :white_check_mark:
 ```
-  @Test 
-	public void testReverseInPlace2() {
+@Test 
+public void testReverseInPlace2() {
     int[] input1 = {1};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 1 }, input1);
-	}
+}
 ```
 ### iii.
 Symptom:
 ![Image](lab3_1.png)
-
+The program is printing the array in order, not reverse order.
 ### iv.
-The bug:
+The bug: :beetle:
 Before: :x:
 ```
   static void reverseInPlace(int[] arr) {
@@ -59,7 +59,7 @@ static void reverseInPlace(int[] arr) {
 ### v.
 This fix helps address the problem by first creatng a temporary array, and then copying the elements in reverse-order. The original code is not sufficient and produces symptoms because the elements keep getting changed. For example, the first element is assigned to the last element, but then the order is not actually reversed as the elements switch places back again. 
 
-## Part 2 :punch:
+## Part 2: ```Less``` :punch:
 ### -N :point_up_2:
 ```$ less -N */*.txt```
 ![Image](lab3_TWO.png)
@@ -68,7 +68,7 @@ Prints all ```.txt``` files and then prints less of the list, with numbered line
 ![Image](lab3_THREE.png)
 Finds ```.txt``` file that starts with bcr and then prints less of it, with numbered lines.
 
-### -X :wave:
+### -X
 ```$ less -X */*gb*.txt```
 ![Image](new1.png)
 Finds files containing ```gb``` and prints a reduced version of the contents, and then leaves it on the screen once exiting. \

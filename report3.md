@@ -90,7 +90,7 @@ Finds file with the name ```bcr583.txt``` and then prints the beginning of the f
 Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. The highlighted part is changed, and now shows the percentage of the file displayed on the screen, along with the file line numbers of the text shown. \
 ```$ less -X */*bcr**.txt```
 ![Image](lab3_NINE.png) \
-Finds the ```.txt``` files containing ```bcr``` and then prints the beginning of one file. It shows the percentage of the file shown on the screen and the file line numbers of the text shown.
+Finds the ```.txt``` files containing ```bcr``` and then prints the beginning of one file. It shows the percentage on the screen and the file line numbers of the text shown.
 
 ## Attribution :clap:
 Less Command in Linux https://linuxize.com/post/less-command-in-linux/ \

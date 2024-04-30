@@ -1,5 +1,5 @@
 # Lab Report 3 - 04/30/24
-## Part 1
+## Part 1 :bug: :beetle: :ant:
 ### i.
 ```reverseInPlace``` method original:
 ```
@@ -10,7 +10,7 @@
   }
 
 ```
-JUnit test fails:
+JUnit test fails:  :x:
 ```
 	@Test 
 	public void testReverseInPlace() {
@@ -20,7 +20,7 @@ JUnit test fails:
 	}
 ```
 ### ii.
-JUnit test passes:
+JUnit test passes: :white_check_mark:
 ```
   @Test 
 	public void testReverseInPlace2() {
@@ -59,8 +59,8 @@ static void reverseInPlace(int[] arr) {
 ### v.
 This fix helps address the problem by first creatng a temporary array, and then copying the elements in reverse-order. The original code is not sufficient and produces symptoms because the elements keep getting changed. For example, the first element is assigned to the last element, but then the order is not actually reversed as the elements switch places back again. 
 
-## Part 2
-### -N
+## Part 2 :punch:
+### -N :point_up_2:
 ```$ less -N */*.txt```
 ![Image](lab3_TWO.png)
 Prints all ```.txt``` files and then prints less of the list, with numbered lines. \
@@ -68,7 +68,7 @@ Prints all ```.txt``` files and then prints less of the list, with numbered line
 ![Image](lab3_THREE.png)
 Finds ```.txt``` file that starts with bcr and then prints less of it, with numbered lines.
 
-### -X
+### -X :wave:
 ```$ less -X */*gb*.txt```
 ![Image](new1.png)
 Finds files containing ```gb``` and prints a reduced version of the contents, and then leaves it on the screen once exiting. \
@@ -76,7 +76,7 @@ Finds files containing ```gb``` and prints a reduced version of the contents, an
 ![Image](new2.png)
 Finds files containing ```gb``` and prints a reduced version of the contents, and then leaves it on the screen once exiting.
 
-### -F
+### -F :metal:
 ```$ less -X */hello.txt```
 ![Image](SIX.png)
 Finds file with the name ```bcr583.txt``` and then prints the entire file. Since the entire file can be displayed on one screen, it exits. \
@@ -84,7 +84,7 @@ Finds file with the name ```bcr583.txt``` and then prints the entire file. Since
 ![Image](lab3_SEVEN.png)
 Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. Since the entire file CANNOT be displayed on one screen, it does not exit.
 
-### -M
+### -M :muscle:
 ```$ less -M */*bcr583.txt```
 ![Image](lab3_EIGHT.png)
 Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. The highlighted part is changed, and now shows the percentage of the file displayed on the screen, along with the file line numbers of the text shown. \
@@ -92,7 +92,7 @@ Finds file with the name ```bcr583.txt``` and then prints the beginning of the f
 ![Image](lab3_NINE.png) \
 Finds the ```.txt``` files containing ```bcr``` and then prints the beginning of one file. It shows the percentage of the file shown on the screen and the file line numbers of the text shown.
 
-### Attribution
+### Attribution :clap:
 Less Command in Linux https://linuxize.com/post/less-command-in-linux/ \
 
 OpenAI. "ChatGPT - OpenAI's Language Model." ChatGPT, Version 2, OpenAI, 2024 https://openai.com/chatgpt \

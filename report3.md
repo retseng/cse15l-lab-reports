@@ -70,10 +70,10 @@ Finds ```.txt``` file that starts with bcr and then prints less of it, with numb
 
 ### -X
 ```$ less -X */*gb*.txt```
-![Image](lab3_FOUR.png)
+![Image](new1.png)
 Finds files containing ```gb``` and prints a reduced version of the contents, and then leaves it on the screen once exiting.
 ```$ less -X */*research*.txt```
-![Image](lab3_FIVE.png)
+![Image](new2.png)
 Finds files containing ```gb``` and prints a reduced version of the contents, and then leaves it on the screen once exiting.
 
 ### -F

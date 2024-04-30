@@ -63,7 +63,7 @@ This fix helps address the problem by first creatng a temporary array, and then 
 ### -N
 ```$ less -N */*.txt```
 ![Image](lab3_TWO.png)
-Prints all ```.txt``` files and then prints less of the list, with numbered lines.
+Prints all ```.txt``` files and then prints less of the list, with numbered lines. \\
 ```$ less -N */bcr***.txt```
 ![Image](lab3_THREE.png)
 Finds ```.txt``` file that starts with bcr and then prints less of it, with numbered lines.
@@ -71,15 +71,15 @@ Finds ```.txt``` file that starts with bcr and then prints less of it, with numb
 ### -X
 ```$ less -X */*gb*.txt```
 ![Image](new1.png)
-Finds files containing ```gb``` and prints a reduced version of the contents, and then leaves it on the screen once exiting.
+Finds files containing ```gb``` and prints a reduced version of the contents, and then leaves it on the screen once exiting. \\
 ```$ less -X */*research*.txt```
 ![Image](new2.png)
 Finds files containing ```gb``` and prints a reduced version of the contents, and then leaves it on the screen once exiting.
 
 ### -F
 ```$ less -X */hello.txt```
-![Image](lab3_SIX.png)
-Finds file with the name ```bcr583.txt``` and then prints the entire file. Since the entire file can be displayed on one screen, it exits.
+![Image](SIX.png)
+Finds file with the name ```bcr583.txt``` and then prints the entire file. Since the entire file can be displayed on one screen, it exits. \\
 ```$ less -X */*bcr583.txt```
 ![Image](lab3_SEVEN.png)
 Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. Since the entire file CANNOT be displayed on one screen, it does not exit.
@@ -87,15 +87,15 @@ Finds file with the name ```bcr583.txt``` and then prints the beginning of the f
 ### -M
 ```$ less -M */*bcr583.txt```
 ![Image](lab3_EIGHT.png)
-Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. The highlighted part is changed, and now shows the percentage of the file displayed on the screen, along with the file line numbers of the text shown.
+Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. The highlighted part is changed, and now shows the percentage of the file displayed on the screen, along with the file line numbers of the text shown. \\
 ```$ less -X */*bcr**.txt```
-![Image](lab3_SEVEN.png)
+![Image](lab3_NINE.png)
 Finds the ```.txt``` files containing ```bcr``` and then prints the beginning of one file. It shows the percentage of the file shown on the screen and the file line numbers of the text shown.
 
 ### Attribution
-Less Command in Linux `[https://linuxize.com/post/less-command-in-linux/]`
+Less Command in Linux https://linuxize.com/post/less-command-in-linux/
 
-OpenAI. "ChatGPT - OpenAI's Language Model." ChatGPT, Version 2, OpenAI, 2024 `[https://openai.com/chatgpt]'
+OpenAI. "ChatGPT - OpenAI's Language Model." ChatGPT, Version 2, OpenAI, 2024 https://openai.com/chatgpt
 Prompt: What are some flag usages with the command less?
 Output:
 ![Image](CHAT.png)

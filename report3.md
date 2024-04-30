@@ -59,3 +59,4 @@ static void reverseInPlace(int[] arr) {
 ### v.
 This fix helps address the problem by first creatng a temporary array, and then copying the elements in reverse-order. The original code is not sufficient and produces symptoms because the elements keep getting changed. For example, the first element is assigned to the last element, but then the order is not actually reversed as the elements switch places back again. 
 
+## Part 2

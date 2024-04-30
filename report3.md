@@ -89,7 +89,7 @@ Finds file with the name ```bcr583.txt``` and then prints the beginning of the f
 ![Image](lab3_EIGHT.png)
 Finds file with the name ```bcr583.txt``` and then prints the beginning of the file. The highlighted part is changed, and now shows the percentage of the file displayed on the screen, along with the file line numbers of the text shown. \
 ```$ less -X */*bcr**.txt```
-![Image](lab3_NINE.png)
+![Image](lab3_NINE.png) \
 Finds the ```.txt``` files containing ```bcr``` and then prints the beginning of one file. It shows the percentage of the file shown on the screen and the file line numbers of the text shown.
 
 ### Attribution
@@ -99,4 +99,4 @@ OpenAI. "ChatGPT - OpenAI's Language Model." ChatGPT, Version 2, OpenAI, 2024 ht
 Prompt: What are some flag usages with the command less? \
 Output: \
 ![Image](CHAT.png) \
-Modification: I took the examples mentioned (-N, ), and created examples of my own with the files in ```docsearch```
+Modification: I took the examples mentioned (-M, -F), and created examples of my own with the files in ```docsearch```

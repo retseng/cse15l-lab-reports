@@ -1,5 +1,5 @@
 # Lab Report 7 - 05/14/24
-![Image](1.png) \\
+![Image](1.png) \
 ```<up><up><up><up><up><enter>``` \\
 I'm using the bash history to log into ieng6 \\
 ![Image](2.png) \\

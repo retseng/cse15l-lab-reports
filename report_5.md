@@ -48,7 +48,7 @@ and there will be multiple elements returned (if the ouput expects it).
          return result;
         }
  And the output:
-![Image](report5_3.png) \
+![Image](report5_3.png) 
 
 ## Reflection
 I learned about how to use the Java Debugger (```jdb```) which was very practical for my work in future

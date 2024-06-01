@@ -20,9 +20,6 @@ and there will be multiple elements returned (if the ouput expects it).
    and JUnit is copied and used to debug the file.
 3. Contents of the file before fixing the bug:
    ```
-   { import java.util.ArrayList;
-   import java.util.List;
-
    interface StringChecker { boolean checkString(String s); }
    class ListExamples {
    static List<String> filter(List<String> list, StringChecker sc) {
@@ -41,7 +38,6 @@ and there will be multiple elements returned (if the ouput expects it).
       statement to return the ArrayList. I also edited the code such that the string matcher retrieves and
       adds the specific element of the iteration of the ArrayList. The fixed code can be found below:
          ```
-         {
          static List<String> filter(List<String> list, StringChecker sc) {
          List<String> result = new ArrayList<>();
          for(int i = 0; i<list.size(); i++) {
@@ -51,7 +47,6 @@ and there will be multiple elements returned (if the ouput expects it).
          }
          return result;
         }
-      }      
    ``` And the output:
 ![Image](report5_3.png) \
 

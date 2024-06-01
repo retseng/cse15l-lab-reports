@@ -18,7 +18,7 @@ and there will be multiple elements returned (if the ouput expects it).
 ### Conclusion
 1. Directory and file-structure needed: The ```grade.sh``` file changes the directory to the folder ```grading-area```,
    and JUnit is copied and used to debug the file.
-3. Contents of the file before fixing the bug:
+2. Contents of the file before fixing the bug:
    ```
    interface StringChecker { boolean checkString(String s); }
    class ListExamples {
@@ -33,8 +33,8 @@ and there will be multiple elements returned (if the ouput expects it).
    return list;
    }
    ```
-   3. Command Line: ```bash grade.sh https://github.com/retseng/report5_example.git```
-   4. To edit the bug, I declared the ArrayList before the ```for``` loop, and then changed the last return
+3. Command Line: ```bash grade.sh https://github.com/retseng/report5_example.git```
+4. To edit the bug, I declared the ArrayList before the ```for``` loop, and then changed the last return
       statement to return the ArrayList. I also edited the code such that the string matcher retrieves and
       adds the specific element of the iteration of the ArrayList. The fixed code can be found below:
          ```
@@ -47,7 +47,7 @@ and there will be multiple elements returned (if the ouput expects it).
          }
          return result;
         }
-   ``` And the output:
+ And the output:
 ![Image](report5_3.png) \
 
 ## Reflection
